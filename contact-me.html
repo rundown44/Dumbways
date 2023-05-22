@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/assets/css/dumbways.css">
+    <title>Contact Me</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="nav-left">
+            <ul style="list-style: none;">
+                <li>
+                    <a href="index.html"><img src="/assets/img/logo_dumbways.png" alt="dumbways_logo"></a>
+                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="my-project.html">My Project</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <a href="contact-me.html">Contact Me</a>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+    <h1 class="contact-h1">GET IN TOUCH WITH <br> ARIF AZIZ</h1>
+    <form class="contact-form">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email">
+        </div>
+        <div>
+            <label for="phone">Phone Number</label>
+            <input type="number" id="phone">
+        </div>
+        <div>
+            <label for="subject">Subject</label>
+            <select name="subject" id="subject" required>
+                <option default selected></option>
+                <option>Let's Talk</option>
+                <option>Let's Collaborate</option>
+                <option>I'm Hiring</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <textarea type="text" id="message" style="resize: none; height: 100px;"></textarea>
+        </div>
+        <div>
+            <button type="button" onclick="getData()">Submit</button>
+        </div>
+    </form>
+    <div>
+        
+    </div>
+</body>
+<script src="/assets/js/script.js"></script>
+</html>
